@@ -1,0 +1,132 @@
+.game-name {
+  text-align: center;
+}
+
+.whoStartTheGame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.choice {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.area-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.area {
+  width: 100px;
+  height: 100px;
+  border: solid 2px black;
+  cursor: pointer;
+  align-content: center;
+  text-align: center;
+  font-size: 40px;
+}
+
+.area:hover {
+  background-color: rgb(250, 250, 250);
+}
+
+.topLeft {
+  border-top: none;
+  border-left: none;
+}
+
+.topMiddle {
+  border-top: none;
+}
+
+.topRight {
+  border-top: none;
+  border-right: none;
+}
+
+.middleLeft {
+  border-left: none;
+}
+
+.middleRight {
+  border-right: none;
+}
+
+.bottomLeft {
+  border-left: none;
+  border-bottom: none;
+}
+
+.bottomMiddle {
+  border-bottom: none;
+}
+
+.bottomRight {
+  border-bottom: none;
+  border-right: none;
+}
+
+.infos {
+  border: solid 1px black;
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.playerDiv {
+  flex: 1;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.winnerDiv {
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.winner,
+.player {
+  color: white;
+}
+
+#buttonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#reset,
+.x,
+.o {
+  font-size: 20px;
+  padding: 10px 20px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+#reset:hover {
+  background-color: black;
+  color: white;
+}
+
+.x:hover,
+.o:hover {
+  background-color: black;
+  color: white;
+}
+
+.x:active,
+.o:active,
+#reset:active {
+  background-color: rgb(250, 250, 250);
+  color: black;
+}

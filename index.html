@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic tac toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="game-name">Tic tac toe</h1>
+    <div class="whoStartTheGame">
+      <div><h1>Who start the game?</h1></div>
+      <div class="choice">
+        <button class="x">X</button>
+        <button class="o">O</button>
+      </div>
+    </div>
+    <div class="area-container">
+      <div data-item="a1" class="area topLeft"></div>
+      <div data-item="a2" class="area topMiddle"></div>
+      <div data-item="a3" class="area topRight"></div>
+      <div data-item="b1" class="area middleLeft"></div>
+      <div data-item="b2" class="area middleMiddle"></div>
+      <div data-item="b3" class="area middleRight"></div>
+      <div data-item="c1" class="area bottomLeft"></div>
+      <div data-item="c2" class="area bottomMiddle"></div>
+      <div data-item="c3" class="area bottomRight"></div>
+    </div>
+
+    <div class="infos">
+      <div class="playerDiv">
+        <div><p>Player:</p></div>
+        <div><p class="player">--</p></div>
+      </div>
+      <div class="winnerDiv">
+        <div><p>Winner:</p></div>
+        <div><p class="winner">--</p></div>
+      </div>
+    </div>
+    <div id="buttonDiv">
+      <button id="reset">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
